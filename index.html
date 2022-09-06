@@ -11,6 +11,25 @@
 <body>
     <header id="header">
         <h1>&#8484;oopedia<span>&#129426;</span></h1>
+        <hr>
+        <form action="https://www.google.com/search">
+           <span>Google Serch</span>
+            <input type="search" name="q" id="search" placeholder="Пошук тварин">
+            <div>
+                <label for="domestic-animal">Свійска тварина</label>
+                <input type="radio" name="animal-type" id="domestic-animal" checked>
+                <label for="savage">Дика тварина</label>
+                <input type="radio" name="animal-type" id="savage">  
+            </div>
+            <div>
+                <label for="animal-uk">В Україні</label>
+                <input type="checkbox" name="animal-location" id="animal-uk" checked>
+                <label for="animal-world">В Світі</label>
+                <input type="checkbox" name="animal-location" id="animal-world">
+            </div>
+            <button type="submit">Пошук</button>
+        </form>
+
         <nav>
             <a href="#cat">Кіт</a>
             <a href="#dog">Пес свійський</a>
